@@ -1,0 +1,5 @@
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Application\bin\Debug\net6.0\publish\WebAPI.Application.dll
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Application\bin\Debug\net6.0\publish\WebAPI.Application.deps.json
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Application\bin\Debug\net6.0\publish\WebAPI.Application.pdb
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Application\bin\Debug\net6.0\publish\WebAPI.Domain.dll
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Application\bin\Debug\net6.0\publish\WebAPI.Domain.pdb

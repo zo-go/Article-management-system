@@ -1,0 +1,109 @@
+@url=http://localhost:8000
+
+###
+GET {{url}}/users HTTP/1.1
+
+### 根据id查找
+GET {{url}}/users/dc89e69e-1059-4348-8a0a-02ce4d5857a7 HTTP/1.1
+
+### 根据姓名查找
+GET {{url}}/users/张三 HTTP/1.1
+
+### 删除用户
+DELETE {{url}}/users/36abaecc-6e86-4ad2-9ace-b05cd2fafe16 HTTP/1.1
+
+### 添加用户
+POST {{url}}/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "username" : "admin2",
+    "password" : "123456"
+}
+
+### 修改用户 
+PUT  {{url}}/users/8bed7ddd-a851-4d0f-ad6c-c12c9e73c4fb  HTTP/1.1
+Content-Type: application/json
+
+{
+    "username" : "admin3",
+    "password" : "123456",
+    "nickname" : "张三"
+}
+
+### 获取token
+POST {{url}}/Users/token HTTP/1.1
+Content-Type: application/json
+
+{
+    "username" : "admin",
+    "password" : "123456"
+}
+
+### 刷新token
+POST {{url}}/user/refreshtoken HTTP/1.1
+Content-Type: application/json
+
+{
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJkN2FiMTQ0OC1lNGEzLTQ4MGUtOGVkMi0zM2ZlYjVhYTgwMGEiLCJVc2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNjU3MDgxODI1LCJpc3MiOiLlsLHniLHkv6Hmga_np5HmioDmnInpmZDlhazlj7giLCJhdWQiOiLmiYDmnInkuroifQ.lBVYot-hffR08pqiBZkvy8yr-iw8Y_GyIXM5TGB2g5M",
+    "refreshToken": "vWjtDgDHDrIyTV2+rsu8lUH+44bt+o5m0EsDJtTrwoY="
+}
+
+### 获取文章
+GET {{url}}/blogs HTTP/1.1
+Content-Type: application/json
+
+{
+    "pageSize": "2",
+    "pageIndex": "1"
+}
+
+### 根据id查找文章
+GET {{url}}/blogs/d505e49d-9e96-4e22-9239-ebdb33ca87d0 HTTP/1.1
+
+### 添加文章
+POST {{url}}/blogs HTTP/1.1
+Content-Type: application/json
+
+{
+    "ArticleTitle": "1",
+    "ArticleSecondTitle": "123",
+    "ArticleContent": "12345",
+    "AppArticleClassId": "281cebf2-3d2e-4760-a369-db7795d70e5b",
+    "AppUserId": "dc89e69e-1059-4348-8a0a-02ce4d5857a7"
+}
+
+### 删除文章
+DELETE {{url}}/blogs/84e8e952-b3c3-4f0e-bcdf-4e932827dff4 HTTP/1.1
+
+### 获取文章分类
+GET {{url}}/ArticleClass HTTP/1.1
+
+### 添加文章分类
+POST {{url}}/ArticleClass HTTP/1.1
+Content-Type: application/json
+
+{
+    "AppArticleClassName": "33"
+}
+
+### 删除文章分类
+DELETE {{url}}/articleClass/0ce308c0-8998-4a71-a566-541f69e35c80 HTTP/1.1
+
+### 添加评论
+POST {{url}}/ArticleComment HTTP/1.1
+Content-Type: application/json
+
+{
+    "UserCommentId" : "a21e0fd5-ad77-49df-bfec-d9f7decfde2e",
+    "CommentContent": "这是一条评论",
+    "AppUserId":3 "aa697acb-870c-47b0-a3fb-b9b6c11ecfde",
+    "AppArticleId": "ba2e9024-053b-488e-901c-a5ab3913ee2"
+}
+
+### 获取评论
+GET {{url}}/ArticleComment HTTP/1.1
+
+### 根据文章id获取评论
+GET {{url}}/ArticleComment/ba2e9024-053b-488e-901c-a5ab3913e3e2 HTTP/1.1
+

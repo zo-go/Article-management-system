@@ -1,0 +1,11 @@
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\bin\Release\net6.0\linux-x64\WebAPI.Domain.deps.json
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\bin\Release\net6.0\linux-x64\WebAPI.Domain.dll
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\bin\Release\net6.0\linux-x64\ref\WebAPI.Domain.dll
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\bin\Release\net6.0\linux-x64\WebAPI.Domain.pdb
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\obj\Release\net6.0\linux-x64\WebAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\obj\Release\net6.0\linux-x64\WebAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\obj\Release\net6.0\linux-x64\WebAPI.Domain.AssemblyInfo.cs
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\obj\Release\net6.0\linux-x64\WebAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\obj\Release\net6.0\linux-x64\WebAPI.Domain.dll
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\obj\Release\net6.0\linux-x64\ref\WebAPI.Domain.dll
+C:\Users\Montian\Desktop\cms项目 - 副本\backend\src\WebAPI.Domain\obj\Release\net6.0\linux-x64\WebAPI.Domain.pdb
